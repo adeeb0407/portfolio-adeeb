@@ -147,8 +147,8 @@ export default function Hero() {
           <Letters text={PERSON.last} className="w2" />
         </h1>
         <p className="tag">
-          <span className="ln"><span>Building software that small</span></span>
-          <span className="ln"><span>businesses <em>own.</em></span></span>
+          <span className="ln"><span>I build big things,</span></span>
+          <span className="ln"><span>and I <em>ship</em> them.</span></span>
         </p>
         <div className="index">
           {INDEX.map(([n, name, note]) => (

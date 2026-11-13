@@ -10,7 +10,7 @@ const mono = JetBrains_Mono({ variable: "--f-mono", subsets: ["latin"] });
 const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3222";
 const TITLE = "Adeeb Shah · Founder & CEO, Pronttera";
 const DESC =
-  "Adeeb Shah builds software that lets small businesses own their customers. Founder of Pronttera, maker of Tijarah (10,000+ customers) and Frostique, shipping AI agents in production. Ran a Ragnarok server for 15,000 players at sixteen. Pune · Auckland · Dubai.";
+  "Adeeb Shah builds big things and ships them. Founder & CEO of Pronttera, maker of Tijarah (10,000+ customers) and Frostique, shipping AI agents in production. Ran a Ragnarok server for 15,000 players at sixteen. Pune · Auckland · Dubai.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Building software that small businesses own. Founder & CEO, Pronttera.",
+    description: "I build big things, and I ship them. Founder & CEO, Pronttera.",
     creator: "@adeebshah41",
   },
   robots: { index: true, follow: true },

@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Adeeb Shah · Founder & CEO, Pronttera",
     short_name: "Adeeb Shah",
-    description: "Builds software that lets small businesses own their customers. Tijarah, Frostique, FitStack, and AI agents in production.",
+    description: "Builds big things and ships them: Tijarah, Frostique, FitStack, and AI agents in production.",
     start_url: "/",
     display: "standalone",
     background_color: "#0f0f10",
